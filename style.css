@@ -1,0 +1,151 @@
+:root
+{
+    font-size: 62.5%;
+
+}
+
+body
+{
+    font-size: 1.6rem;
+    
+}
+
+.zitat > ul li::before,.zitat > ul li::after
+{
+    display: inline-block;
+    margin-right: 10px;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    content: '';
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png');
+}
+
+.dateien > ul li::after
+{
+    display: inline-block;
+    margin-right: 10px;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    content: '';
+}
+
+.file1::after 
+{
+    background-image: url('https://img.icons8.com/officel/64/000000/pdf.png');
+}
+
+.file2::after
+{
+    background-image:url('https://img.icons8.com/dusk/64/000000/ms-excel.png')
+}
+
+
+
+.file3::after
+{
+    background-image:url('https://img.icons8.com/dusk/64/000000/ms-word.png')
+}
+
+.file4::after
+{
+    background-image:url('https://img.icons8.com/dusk/64/000000/ms-word.png')
+}
+
+.file5::after
+{
+    background-image:url('https://img.icons8.com/officel/64/000000/pdf.png')
+}
+
+
+.sandwich >ul li
+{
+    list-style: none;
+    font-size: 3rem;
+    
+}
+
+
+ 
+.randoben
+{
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient(to right, rgba(44, 198, 209, 0.986),rgb(117, 241, 34),rgb(255, 231, 14) );
+    
+}
+
+
+
+.randunten
+{
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient(to right,  rgb(255, 231, 14), rgb(117, 241, 34),rgba(44, 198, 209, 0.986) );
+    
+}
+
+
+.linie-unter-randunten
+{
+ display: inline-block;
+ background-color: black;
+ padding: 0px;
+ width: 100%;
+ height: 2px;
+ position: relative;
+ bottom: 1.6rem;
+}
+/* 
+.sandwich ul li
+{
+    border-left: 2px solid black;
+    
+}
+ */
+
+ .sandwich ul li::before
+ {
+    vertical-align: baseline;
+ }
+
+/*  ********************************************************** */
+.sandwich2
+{
+    width: 100%;
+    height: 150px;
+    background-color: whitesmoke;
+    border:black solid 2px;
+}
+
+.sandwich2_oben
+{
+    
+        display: inline-block;
+        width: 100%;
+        height: 50px;
+        background-image: linear-gradient(to right, rgba(44, 198, 209, 0.986),rgb(117, 241, 34),rgb(255, 231, 14) );
+ }
+
+ p{
+    font-size: 3rem;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+ }
+
+ .sandwich2_unten
+ {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to right,  rgb(255, 231, 14), rgb(117, 241, 34),rgba(44, 198, 209, 0.986) );
+    
+ }
+
+
+   
+    

@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Überschrift mit Linie</title>
+    <style>
+      h1 {
+        text-align: center;
+               
+        display: table;
+        border-collapse: collapse;
+        white-space: nowrap;
+      }
+      h1::before, h1::after {
+        content: "";
+        display: table-cell;
+        width: 50%;
+
+        background-image: linear-gradient(to right, #c4d4da 50%, transparent 50%);
+        background-position: 0 50%;
+        background-repeat: repeat-x;
+        background-size: 6px 2px;
+      }
+      h1::before {
+        border-right: .5em solid transparent;
+      }
+      h1::after {
+        border-left: .5em solid transparent;
+      }
+      
+      section, article {
+        margin: 2em 0;
+        border: 1px solid;
+      }
+      section h1 {
+        background-image: linear-gradient(to right, red, yellow);
+      }
+      article {
+        background-image: linear-gradient(to right bottom, red, yellow);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Eine Überschrift</h1>
+    <section>
+        <h1>innerhalb eines section-Elementes</h1>
+        <p>Hier hat die Überschrift einen zusätzlichen Farbverlauf.</p>
+    </section>
+    <article>
+        <h1>innerhalb eines article-Elementes</h1>
+        <p>Hier hat das umgebende Element einen zusätzlichen Farbverlauf.</p>
+    </article>
+  </body>
+</html>
